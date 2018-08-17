@@ -22,11 +22,12 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-gem 'jquery', '~> 0.0.1'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
-
+gem 'cocoon', '~> 1.2', '>= 1.2.11', :git => 'git://github.com/nathanvda/cocoon.git'
+gem 'devise', '~> 4.5'
 
 gem 'paperclip', '~> 6.1'
 # Use Redis adapter to run Action Cable in production
@@ -35,7 +36,7 @@ gem 'paperclip', '~> 6.1'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
+# gem 'mini_magick', '~> 4.8' <-- Useful for upgrading paperclip?
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
