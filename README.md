@@ -5,3 +5,5 @@ A recipe box application, adapted from Week 3 of Mackenzie Child's "Ruby on Rail
 [More detail needed]
 
 [Adding new detail for my-new-branch]
+
+[Making a remote branch]
